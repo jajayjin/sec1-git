@@ -1,0 +1,64 @@
+/* base styles */
+* {
+    margin: 0;
+    font-family: "sans-serif";
+    color: #130a4f;
+  }
+  
+  .navbar {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Align logo, search box, and links at the ends */
+    align-items: center;
+   
+    margin: 0 auto;
+    border-bottom: 1px solid #e66b4b;
+  }
+  
+  .navbar h1 {
+    color: #f1356d;
+  }
+  
+  
+  
+  .searchicon {
+    padding: 10px;
+  }
+  .navbar .links {
+    display: flex;
+    justify-content: flex-end; /* Align links to the right */
+  }
+  
+  .navbar a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+  }
+  
+  .navbar a:hover {
+    color: #f1356d;
+  }
+  .whitebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button{
+    padding-right: 30px;
+    padding-left: 80px;
+  }
+  .box {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-end; /* Align the icon to the right */
+  }
+  
+  .searchicon {
+    padding: 10px;
+  }
+  

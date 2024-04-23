@@ -1,0 +1,51 @@
+/* base styles */
+
+.navbar {
+
+  width: 100%;
+  justify-content: space-between; /* Align logo, search box, and links at the ends */
+  align-items: center;
+   /* Make navbar full width of the viewport */
+  background-color: black; /* Set background color */
+  color: white; /* Set text color */
+  border-bottom: 1px solid #e66b4b;
+}
+
+.navbar img {
+  width: 80px;
+  height: 80px;
+}
+
+.whitebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 40px;
+  width: 400px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: flex-end; /* Align the icon to the right */
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: white;
+  background-color: red;
+}
+
+.button:hover {
+  color: #f1356d; /* Change hover color */
+}

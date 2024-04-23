@@ -1,0 +1,125 @@
+.searchBar {
+   display: flex; 
+   justify-content: space-between; 
+   width: 80%; 
+   margin-bottom: 20px; 
+}
+
+.searchBar input { 
+  padding: 5px; 
+  width: 80%;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-radius: 5px;
+}
+
+.searchBar button { 
+  padding: 5px 10px; 
+  background-color: rgb(255, 0, 0); 
+  color: whitesmoke; 
+  border: none; 
+  border-radius: 5px; 
+}
+
+.searchBar button:hover{
+   background-color: rgb(248, 79, 79); 
+}
+
+.Tablebox {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Tablebox table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.Tablebox thead th {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.Tablebox tbody td {
+  padding: 10px;
+  text-align: center;
+}
+
+.Tablebox tbody td:first-child {
+  padding-left: 30px;
+}
+
+.Tablebox tbody td:last-child {
+  padding-right: 30px;
+}
+
+.Tablebox tbody td select {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  outline: none;
+}
+
+.Tablebox tbody td select:focus {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.Tablebox tbody td select:hover {
+  cursor: pointer;
+}
+
+.Tablebox tbody td select option {
+  padding: 5px;
+}
+
+.AddButton {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.AddButton button {
+  padding: 10px 20px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor:pointer;
+}
+
+.AddButton button:hover {
+  background-color: rgb(248, 79, 79);
+}
+
+@media screen and (max-width: 768px) {
+  .Tablebox table {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .Tablebox thead th{
+    padding: 10px;
+    text-align: left;
+    white-space: nowrap;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .Tablebox tbody td {
+    padding: 10px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .Tablebox tbody td select {
+    width: 100%;
+  }
+}
